@@ -19,7 +19,7 @@ loginbutton.addEventListener("click",()=>{
     
     if(namestorage==inputusername&&passwordstorage==inputuserpassword){
         alert("login done successful")
-        window.open("project.html")
+        window.open("../project/project.html")
     }else{
         alert("oops invalid credentials")
     }
