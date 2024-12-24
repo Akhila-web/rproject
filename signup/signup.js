@@ -29,6 +29,6 @@ button.addEventListener("click",(e)=>{
         return
     }
     errormessage.textContent=""
-    window.location.href="login.html"
+    window.location.href="../login/login.html"
 
 })
